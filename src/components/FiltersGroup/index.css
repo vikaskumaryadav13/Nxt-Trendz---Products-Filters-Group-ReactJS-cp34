@@ -1,0 +1,165 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+}
+
+.search-input {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 550;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+.search-icon {
+  width: 22px;
+  height: 22px;
+  color: #475569;
+}
+
+.category-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 750;
+  margin-top: 25px;
+  color: #12022f;
+}
+
+@media screen and (min-width: 768px) {
+  .category-heading {
+    margin-top: 34px;
+  }
+}
+
+.categories-list {
+  padding-left: 0;
+}
+
+.category-item {
+  list-style-type: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .category-item {
+    margin-top: 25px;
+  }
+}
+
+.category-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .category-name {
+    font-size: 20px;
+  }
+}
+
+.active-category-name {
+  color: #0967d2;
+}
+
+.rating-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 750;
+  margin-top: 33px;
+  color: #12022f;
+  margin-bottom: 20px;
+}
+
+.ratings-list {
+  padding-left: 0px;
+}
+
+.rating-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.rating-img {
+  max-width: 150px;
+  height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .rating-img {
+    height: 25px;
+  }
+}
+
+.and-up {
+  font-family: Roboto;
+  font-size: 15px;
+  margin-left: 12px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .and-up {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+}
+
+.active-rating {
+  color: #0967d2;
+}
+
+.clear-filters-btn {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 750;
+  border-radius: 3px;
+  border: 1px solid #0967d2;
+  padding-top: 10px;
+  padding-left: 13px;
+  padding-bottom: 10px;
+  padding-right: 13px;
+  margin-top: 15px;
+  background-color: #ffffff;
+  color: #0967d2;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .clear-filters-btn {
+    font-size: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 30px;
+  }
+}
